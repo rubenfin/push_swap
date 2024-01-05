@@ -1,5 +1,5 @@
 randints=$(python3 randints.py)
-output_file="output.txt"
+output_file="instruction_count.txt"
 
 # Run push_swap and redirect its output to a file
 ./push_swap "$randints" > "$output_file"

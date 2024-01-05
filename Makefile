@@ -1,4 +1,5 @@
-SRCS_MANDATORY = ft_atoi.c ft_split.c push_swap.c push_swap_utils.c
+SRCS_MANDATORY = ft_atoi.c ft_split.c push_swap.c push_swap_utils.c instructions.c \
+handle_input.c print.c
 
 OBJS = $(SRCS_MANDATORY:%.c=$(OBJS_DIR)/%.o)
 OBJS_DIR = objs

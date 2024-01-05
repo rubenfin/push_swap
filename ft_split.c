@@ -6,7 +6,7 @@
 /*   By: rfinneru <rfinneru@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/07 11:05:55 by rfinneru      #+#    #+#                 */
-/*   Updated: 2023/12/19 13:05:36 by rfinneru      ########   odam.nl         */
+/*   Updated: 2024/01/05 14:02:58 by rfinneru      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,17 +74,7 @@ static int	copy_word(char **split_arr, const char *start, int len, int i)
 	return (1);
 }
 
-static int	
-
-
-
-
-
-
-
-
-
-put_words(char **split_arr, const char *s, char c)
+static int put_words(char **split_arr, const char *s, char c)
 {
 	int			len;
 	const char	*start;

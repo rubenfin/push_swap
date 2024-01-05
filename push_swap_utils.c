@@ -6,7 +6,7 @@
 /*   By: rfinneru <rfinneru@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/12/17 14:58:49 by rfinneru      #+#    #+#                 */
-/*   Updated: 2023/12/21 16:06:23 by rfinneru      ########   odam.nl         */
+/*   Updated: 2024/01/05 10:42:04 by rfinneru      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,3 +41,20 @@ int	are_all_higher(t_stack *stack_a, t_stack *stack_b)
 	}
 	return(1);
 }
+
+int	ft_strcmp(char *s1, char *s2)
+{
+	size_t	i;
+
+	i = 0;
+	while ((s1[i] || s2[i]))
+	{
+		if (s1[i] != s2[i])
+		{
+			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+		}
+		i++;
+	}
+	return (0);
+}
+

@@ -6,7 +6,7 @@
 /*   By: rfinneru <rfinneru@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/10/05 12:02:45 by rfinneru      #+#    #+#                 */
-/*   Updated: 2023/12/17 13:49:43 by rfinneru      ########   odam.nl         */
+/*   Updated: 2024/01/05 11:44:45 by rfinneru      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,12 @@ static int	sign_count(char num)
 	return (sign);
 }
 
-int	ft_atoi(const char *nptr)
+long long	ft_atoi(const char *nptr)
 {
-	int		value;
-	int		sign;
-	char	*num;
-	int		i;
+	long long	value;
+	int			sign;
+	char		*num;
+	int			i;
 
 	i = 0;
 	value = 0;
